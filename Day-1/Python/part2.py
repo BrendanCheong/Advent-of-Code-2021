@@ -8,7 +8,7 @@ for line in sys.stdin:
 
 def answer(report: List[int]) -> int:
     answer: int = 0
-    for i in range(0, len(report)):
+    for i in range(3, len(report)):
         if m[i] > m[i - 3]:
             answer += 1
     return answer
