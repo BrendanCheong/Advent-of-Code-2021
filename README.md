@@ -27,5 +27,5 @@ python3.10 Python/Main.py
 
 ```
 g++ -o main Cpp/main.cpp
-./main
+./main < test.in
 ```
