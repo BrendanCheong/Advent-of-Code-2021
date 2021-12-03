@@ -22,3 +22,10 @@ java -cp Java/ Main < test.in
 ```
 python3.10 Python/Main.py
 ```
+
+### C++
+
+```
+g++ -o main Cpp/main.cpp
+./main
+```
